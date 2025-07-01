@@ -1,0 +1,50 @@
+body, html {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+.app, .appDark {
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.toggle-theme {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.calculator {
+  display: inline-block;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.display {
+  width: 100%;
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-gap: 10px;
+}
+.grid button {
+  font-size: 1.2em;
+  padding: 15px;
+  cursor: pointer;
+}
+.appDark {
+  background-color: #121212;
+  color: white;
+}
+
+.appDark .calculator {
+  background: #1f1f1f;
+  color: white;
+}
